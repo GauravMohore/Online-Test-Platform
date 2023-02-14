@@ -1,0 +1,82 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.featuredItem {
+  background-color: #fff;
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  margin: 0rem 3rem 0rem -0.01rem;
+}
+
+.featuredTitle {
+  font-size: 30px;
+  background: -webkit-linear-gradient(
+    left,
+    rgb(164, 69, 178),
+    rgb(250, 66, 153)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.featuredMoneyContainer {
+  margin: 25px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuredMoney {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.featuredMoneyRate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.featuredIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featuredIcon.negative {
+  color: red;
+}
+
+.featuredSub {
+  font-size: 15px;
+  color: gray;
+}
+.MuiCircularProgress-colorPrimary {
+  color: #a445b2 !important;
+}
+.MuiInputBase-input {
+  width: 500px !important;
+  margin-right: 500px !important;
+}
+/* 
+#content-student>div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1acat7d-MuiPaper-root>div.MuiPaper-root.ForwardRef-root-1.MuiPaper-elevation1.MuiPaper-rounded>button.MuiButtonBase-root.MuiIconButton-root.ForwardRef-iconButton-2.ForwardRef-searchIconButton-4>span.MuiTouchRipple-root {
+    width: 124px !important;
+}
+#content-student>div.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1acat7d-MuiPaper-root>div.MuiPaper-root.ForwardRef-root-1.MuiPaper-elevation1.MuiPaper-rounded>button.MuiButtonBase-root.MuiIconButton-root.ForwardRef-iconButton-2.ForwardRef-searchIconButton-4{
+    width: 136px;
+} */
+#content-student > div.featured > div > div > div > span > svg > circle {
+  fill: ghostwhite;
+}
+
+
+

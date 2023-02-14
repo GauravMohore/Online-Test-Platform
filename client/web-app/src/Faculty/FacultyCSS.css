@@ -1,0 +1,33 @@
+/* unique Exam id */
+#create-exam-form > div:nth-child(2){
+    
+}
+
+/* Exam description */
+#create-exam-form > div:nth-child(3){
+    
+}
+
+/* exam duration  */
+#create-exam-form > div:nth-child(4){
+    
+}
+
+/* status  */
+#create-exam-form > div:nth-child(5){
+
+}
+
+/* subject name */
+#create-exam-form > div:nth-child(6){
+
+}
+
+.FormGroupExam{
+    margin-left: 3rem;
+    padding-right: 3rem;
+    width:1250px
+}
+.tox-notification {
+    display: none !important
+}

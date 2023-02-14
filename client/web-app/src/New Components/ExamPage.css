@@ -1,0 +1,252 @@
+.question-container {
+  background-color: #fffbfb;
+  width: 98%;
+  height: 84%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  /* margin-bottom: 10rem; */
+  /* flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-between; */
+}
+
+.result-container {
+  background-color: #e0e0e0;
+  width: auto;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.score-section {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  word-wrap: break-word;
+  width: 42rem;
+  height: 9rem;
+  justify-content: space-evenly;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: fit-content;
+  position: relative;
+  margin-left: 2rem;
+}
+
+.question-count {
+  margin-bottom: 20px;
+  margin-left: 2rem;
+}
+
+.question-count span {
+  font-size: 28px;
+  margin-left: -2rem;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  /* overflow-wrap: break-word; */
+  /* word-wrap: break-word;
+    hyphens: auto; */
+  width: 100%;
+  /* white-space: break-spaces; */
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  margin-top: 5.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5rem;
+  height: max-content;
+  position: relative;
+  padding-left: 5rem;
+  margin-left: auto;
+}
+
+button:focus {
+  outline: none;
+}
+#root>div.question-container>div.answer-section>div.tns-on-exampage-next-pre{
+display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+.btns-on-exampage {
+
+  position: relative;
+  background-color: #fffbfb;
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+   margin-top: 1rem; 
+  margin-left : 25%;
+
+}
+
+/* Code box */
+#root
+  > div.question-container
+  > div.question-section
+  > div.question-text
+  > pre {
+  width: 500px;
+  height: 500px;
+  position: sticky;
+  overflow-y: scroll;
+}
+
+/* Code text */
+#root
+  > div.question-container
+  > div.question-section
+  > div.question-text
+  > pre
+  > code {
+  position: sticky;
+}
+
+/*
+-------------------------------------------------------------------------------------
+BUTTONS
+_____________________________________________________________________________________
+*/
+
+/* previous button */
+#root
+  > div.btns-on-exampage
+  > button.MuiButtonBase-root.MuiFab-root.MuiFab-extended.MuiFab-sizeLarge.MuiFab-default.css-uvc2sy-MuiButtonBase-root-MuiFab-root {
+  margin-left: 2%;
+}
+
+/* next button */
+#root
+  > div.btns-on-exampage
+  > button.MuiButtonBase-root.MuiFab-root.MuiFab-extended.MuiFab-sizeLarge.MuiFab-default.css-w0ovd6-MuiButtonBase-root-MuiFab-root {
+  margin-left: 69%;
+}
+
+#root > div.question-container > div.answer-section > div > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Answer section */
+#root > div.question-container > div.answer-section {
+  height: 90%;
+}
+
+/* Question section */
+#root > div.question-container > div.question-section {
+  width: 60%;
+}
+
+/* 
+____________________________________________________________
+code text in answers
+____________________________________________________________ 
+*/
+
+/* option 1 */
+#root
+  > div.question-container
+  > div.answer-section
+  > div
+  > div
+  > label:nth-child(1)
+  > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root
+  > pre {
+  overflow: scroll;
+  width: 450px;
+  height: 250px;
+}
+
+/* option 2 */
+#root
+  > div.question-container
+  > div.answer-section
+  > div
+  > div
+  > label:nth-child(2)
+  > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root
+  > pre {
+  overflow: scroll;
+  width: 450px;
+  height: 250px;
+}
+
+/* option 3 */
+#root
+  > div.question-container
+  > div.answer-section
+  > div
+  > div
+  > label:nth-child(3)
+  > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root
+  > pre {
+  overflow: scroll;
+  width: 450px;
+  height: 250px;
+}
+
+/* option 4 */
+#root
+  > div.question-container
+  > div.answer-section
+  > div
+  > div
+  > label:nth-child(4)
+  > span.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label.css-ahj2mt-MuiTypography-root
+  > pre {
+  overflow: scroll;
+  width: 450px;
+  height: 250px;
+}
+
+/* _________________________________________________________________________________ */
+
+#counter-style{
+  background-color: #fffbfb;
+  width: 10%;
+  height: auto;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-left: 89%;
+}

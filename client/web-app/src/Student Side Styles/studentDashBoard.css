@@ -1,0 +1,13 @@
+.ml-20{
+    margin-left: 62% !important;
+    background: -webkit-linear-gradient(left, rgb(164, 69, 178), rgb(250, 66, 153));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    /* font-weight: 900  !important; */
+}
+#content-student>nav>ol{
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+

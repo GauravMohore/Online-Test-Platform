@@ -1,0 +1,73 @@
+.landing-page {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  margin-top: 15%;
+}
+
+.register-org-form{
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  padding-top : 50px;
+
+}
+
+
+
+.App-header {
+  border-radius: 97px 113px / 111px;
+  background-color: rgb(255, 255, 255);
+  min-height: 22vh;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  width: 727px;
+  
+}
+
+.App-header-signup{
+    margin: 15px 0 15px 0;
+      border-radius: 20px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: #282c34;
+      width: 489px;
+      padding-bottom: 34px;
+      display:grid;
+}
+.register-btn{
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#root>div>header>div>button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.button-css.MuiButton-outlinedPrimary{
+  background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+  margin: 14px;
+  color: #fff;
+}
+#root>div>header>button:nth-child(2){
+  background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+  margin: 14px;
+  color: #fff;
+}
+
+#root>div>header>h1{
+  padding: 20px;
+}
